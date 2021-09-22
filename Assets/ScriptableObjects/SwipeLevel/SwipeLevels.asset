@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98d769d0e5284a03906ae828afe2daef, type: 3}
+  m_Name: SwipeLevels
+  m_EditorClassIdentifier: 
+  swipeLevels:
+  - {fileID: 11400000, guid: 2bf41a54ce4985942832dda1bbdfe399, type: 2}
+  - {fileID: 11400000, guid: 77fdb4212b444b14daed0fbe772f9c32, type: 2}
+  - {fileID: 11400000, guid: 5bfaa4624b1114840a7386e167b7d7ab, type: 2}
+  - {fileID: 11400000, guid: 1a5e1e15db55f2945be071f14762379f, type: 2}
+  - {fileID: 11400000, guid: 8c087c28255007643999be82936dfd49, type: 2}

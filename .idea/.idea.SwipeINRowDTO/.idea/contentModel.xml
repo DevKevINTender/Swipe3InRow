@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Unity_Git\SwipeINRowDTO" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Plugins" t="Include">
+          <e p="GitHub" t="Include">
+            <e p="Editor" t="Include">
+              <e p="credits.txt" t="Include" />
+              <e p="eula.txt" t="Include" />
+              <e p="ExtensionLoader.cs" t="Include" />
+              <e p="UnityAPIWrapper.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="ScriptableObjects" t="Include">
+          <e p="SwipeLevel" t="Include">
+            <e p="SwipeLevelSO.cs" t="Include" />
+            <e p="SwipeLevelsSO.cs" t="Include" />
+          </e>
+          <e p="UserLevel" t="Include">
+            <e p="LevelSO.cs" t="Include" />
+            <e p="UserLevelsSO.cs" t="Include" />
+          </e>
+          <e p="UserPersons" t="Include">
+            <e p="UserPersonsListScrObj.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="ChosePersonCore.cs" t="Include" />
+          <e p="Components" t="Include">
+            <e p="Element.cs" t="Include" />
+            <e p="Person" t="Include">
+              <e p="IPerson.cs" t="Include" />
+              <e p="PersonLinear.cs" t="Include" />
+              <e p="PersonNormal.cs" t="Include" />
+            </e>
+            <e p="Platform.cs" t="Include" />
+            <e p="Point.cs" t="Include" />
+          </e>
+          <e p="Controlers" t="Include">
+            <e p="CombinationsControler.cs" t="Include" />
+            <e p="ConvertToExpControler.cs" t="Include" />
+            <e p="SessionScreensControler.cs" t="Include" />
+            <e p="SwipeControler.cs" t="Include" />
+            <e p="UserDataControler.cs" t="Include" />
+          </e>
+          <e p="Models" t="Include">
+            <e p="UserDataModel.cs" t="Include" />
+          </e>
+          <e p="Services" t="Include">
+            <e p="SwipeDetectorService.cs" t="Include" />
+          </e>
+          <e p="SessionCore.cs" t="Include" />
+          <e p="Views" t="Include">
+            <e p="SwipeLevel.cs" t="Include" />
+            <e p="UserLevel.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="SwipeINRowDTO.sln" t="IncludeFlat" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+    <e p="C:\Users\Konstantin\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Konstantin\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_SwipeINRowDTO.693427597.00" t="ExcludeRecursive" />
+  </component>
+</project>

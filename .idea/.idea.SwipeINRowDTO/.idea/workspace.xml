@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="07432623-0c68-438a-ab94-870e1705dd2e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChosePersonCore.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/DOT/FloatNumberDTO.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Presenters/TextPresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SwipeDetectorService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/Point.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controlers/SwipeControler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/Element.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/Platform.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controlers/CombinationsControler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controlers/ConvertCombinationsToExpControler.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScriptableObjects/UserLevelSO.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScriptableObjects/UserLevelsSO.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScriptableObjects/LevelSO.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Presenters/UserLevel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controlers/PanelEventsControler.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScriptableObjects/SwipeLevel/SwipeLevelSO.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScriptableObjects/SwipeLevel/SwipeLevelsSO.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScriptableObjects/UserLevel/LevelSO.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controlers/ScreensControler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/Person/PersonNormal.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controlers/ConvertToExpControler.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScriptableObjects/UserPersons/UserPersonsListScrObj.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/Person/PersonLinear.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/Person/IPersonProperties.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/Person/PersonLinearProp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/Person/IPerson.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Models/UserDataModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controlers/UserDataControler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ChosePersonCore.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controlers/SessionScreensControler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Views/UserLevel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Services/SwipeDetectorService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SessionCore.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Views/SwipeLevel.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1xzCToRirVFY7C2IfZ1ct6r3Xd5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30010834" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="5700">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" value="5700" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="07432623-0c68-438a-ab94-870e1705dd2e" name="Default Changelist" comment="" />
+      <created>1631348542800</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631348542800</updated>
+      <workItem from="1631348556608" duration="3203000" />
+      <workItem from="1631530723608" duration="286000" />
+      <workItem from="1631531068125" duration="19553000" />
+      <workItem from="1631724841864" duration="6479000" />
+      <workItem from="1631786028040" duration="5808000" />
+      <workItem from="1632051940973" duration="1293000" />
+      <workItem from="1632228552457" duration="615000" />
+      <workItem from="1632323865154" duration="9673000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1877" height="375" key="GridCell.Tab.0.bottom" timestamp="1632333606306">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1632333606306" />
+    <state width="1877" height="375" key="GridCell.Tab.0.center" timestamp="1632333606306">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1632333606306" />
+    <state width="1877" height="375" key="GridCell.Tab.0.left" timestamp="1632333606306">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1632333606306" />
+    <state width="1877" height="375" key="GridCell.Tab.0.right" timestamp="1632333606306">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1632333606306" />
+    <state width="1877" height="375" key="GridCell.Tab.1.bottom" timestamp="1632333606307">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1632333606307" />
+    <state width="1877" height="375" key="GridCell.Tab.1.center" timestamp="1632333606307">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1632333606307" />
+    <state width="1877" height="375" key="GridCell.Tab.1.left" timestamp="1632333606306">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1632333606306" />
+    <state width="1877" height="375" key="GridCell.Tab.1.right" timestamp="1632333606307">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1632333606307" />
+    <state width="1877" height="375" key="GridCell.Tab.2.bottom" timestamp="1632333606307">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1632333606307" />
+    <state width="1877" height="375" key="GridCell.Tab.2.center" timestamp="1632333606307">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1632333606307" />
+    <state width="1877" height="375" key="GridCell.Tab.2.left" timestamp="1632333606307">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1632333606307" />
+    <state width="1877" height="375" key="GridCell.Tab.2.right" timestamp="1632333606307">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1632333606307" />
+    <state width="1877" height="375" key="GridCell.Tab.3.bottom" timestamp="1632333606307">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1632333606307" />
+    <state width="1877" height="375" key="GridCell.Tab.3.center" timestamp="1632333606307">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1632333606307" />
+    <state width="1877" height="375" key="GridCell.Tab.3.left" timestamp="1632333606307">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1632333606307" />
+    <state width="1877" height="375" key="GridCell.Tab.3.right" timestamp="1632333606307">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1632333606307" />
+  </component>
+</project>

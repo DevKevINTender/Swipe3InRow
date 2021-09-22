@@ -1,0 +1,13 @@
+﻿using System.Collections.Generic;
+using SwipeToCompleteThreeInRow.Person;
+using UnityEngine;
+
+namespace ScriptableObjects.UserPersons
+{
+    [CreateAssetMenu(fileName = "UserPersonsListScr", menuName = "ScriptableObjects/Create UserPersonsListScr", order = 0)]
+    public class UserPersonsListScrObj : ScriptableObject
+    {
+        [SerializeField]
+        public List<GameObject> userLevels = new List<GameObject>();
+    }
+}
