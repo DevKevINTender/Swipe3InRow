@@ -75,9 +75,13 @@ public class SessionCore : MonoBehaviour
 
     public void RestartSession()
     {
+        SceneManager.LoadScene(1);
+    }
+
+    public void LoadMainMenu()
+    {
         SceneManager.LoadScene(0);
     }
-    
     void OnSwipe(SwipeData swipeData)
     {
         if (SwipeControler.SwipeSolution(swipeData, currentElement))

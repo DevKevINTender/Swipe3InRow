@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Controlers;
 using ScriptableObjects.UserPersons;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ChosePersonCore : MonoBehaviour
 {
@@ -17,5 +18,10 @@ public class ChosePersonCore : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void LoadMainMenu()
+    {
+        SceneManager.LoadScene(0);
     }
 }

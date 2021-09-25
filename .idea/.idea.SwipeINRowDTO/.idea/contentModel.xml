@@ -47,6 +47,7 @@
             <e p="SwipeControler.cs" t="Include" />
             <e p="UserDataControler.cs" t="Include" />
           </e>
+          <e p="MainMenuCore.cs" t="Include" />
           <e p="Models" t="Include">
             <e p="UserDataModel.cs" t="Include" />
           </e>
