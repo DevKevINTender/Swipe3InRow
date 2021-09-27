@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: UserPersonsListScr
   m_EditorClassIdentifier: 
   userLevels:
-  - {fileID: 6385381450190934609, guid: 3e75aa8a9b64fbd4baf0cef7fffe752f, type: 3}
-  - {fileID: 3428485776165874749, guid: c322bb92c39f56d4da43512b6f2dd3fd, type: 3}
+  - {fileID: 11400000, guid: 67ac84f3388254940bfdc83d74c1aa90, type: 2}
+  - {fileID: 11400000, guid: 9182b18c3bf18b74086aaf44f0cb0402, type: 2}
+  - {fileID: 11400000, guid: 6329248827e78f849aad6b840dacbd0f, type: 2}

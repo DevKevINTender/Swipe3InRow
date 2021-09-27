@@ -50,8 +50,8 @@ public class SessionCore : MonoBehaviour
     {
         userData = UserDataControler.LoadData();
         UserLevel.SetData(userData);
-        CurrentPersonType = UserPersonsListScrObj.userLevels[userData.currentPerson].GetComponent<IPerson>();
-        elementPrefab = UserPersonsListScrObj.userLevels[userData.currentPerson].GetComponent<Element>();
+        CurrentPersonType = UserPersonsListScrObj.userLevels[userData.currentPerson].PersonType.GetComponent<IPerson>();
+        elementPrefab = UserPersonsListScrObj.userLevels[userData.currentPerson].PersonObject.GetComponent<Element>();
     }
 
     void SaveUserData()

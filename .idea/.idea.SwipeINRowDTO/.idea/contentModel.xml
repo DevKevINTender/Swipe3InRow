@@ -25,6 +25,7 @@
             <e p="UserLevelsSO.cs" t="Include" />
           </e>
           <e p="UserPersons" t="Include">
+            <e p="UserPersonScrObj.cs" t="Include" />
             <e p="UserPersonsListScrObj.cs" t="Include" />
           </e>
         </e>
@@ -56,6 +57,7 @@
           </e>
           <e p="SessionCore.cs" t="Include" />
           <e p="Views" t="Include">
+            <e p="PersonPanel.cs" t="Include" />
             <e p="SwipeLevel.cs" t="Include" />
             <e p="UserLevel.cs" t="Include" />
           </e>

@@ -10,7 +10,7 @@ namespace Models
     {
         [XmlArray] public List<int> boughtPersons;
         [XmlArray] public List<int> curentBonuses;
-        public int currentPerson = 1;
+        public int currentPerson = 0;
         public int currentUserLevel = 0;
     }
 }

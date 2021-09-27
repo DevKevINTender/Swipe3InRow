@@ -7,7 +7,6 @@ namespace ScriptableObjects.UserPersons
     [CreateAssetMenu(fileName = "UserPersonsListScr", menuName = "ScriptableObjects/Create UserPersonsListScr", order = 0)]
     public class UserPersonsListScrObj : ScriptableObject
     {
-        [SerializeField]
-        public List<GameObject> userLevels = new List<GameObject>();
+        [SerializeField] public List<UserPersonScrObj> userLevels;
     }
 }

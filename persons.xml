@@ -3,5 +3,5 @@
   <boughtPersons />
   <curentBonuses />
   <currentPerson>1</currentPerson>
-  <currentUserLevel>1</currentUserLevel>
+  <currentUserLevel>0</currentUserLevel>
 </UserDataModel>
