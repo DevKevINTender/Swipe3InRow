@@ -11,10 +11,8 @@ namespace SwipeToCompleteThreeInRow
     public class Element: MonoBehaviour
     {
         public List<Color> listColors = new List<Color>();
-        private GameObject _elementObj;
         [SerializeField]
         private Image _elementImage;
-
         private Color _elementColor;
 
         private void Start()
@@ -34,11 +32,7 @@ namespace SwipeToCompleteThreeInRow
             gameObject.transform.position = parent.transform.position;
             gameObject.transform.SetParent(parent);
         }
-
-        public void DestroyElement()
-        {
-            GameObject.Destroy(_elementObj);
-        }
+        
     }
     
 }

@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07432623-0c68-438a-ab94-870e1705dd2e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SwipeINRowDTO/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SwipeINRowDTO/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SwipeINRowDTO/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SwipeINRowDTO/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SwipeINRowDTO/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SwipeINRowDTO/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SessionScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SessionScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ChosePersonCore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ChosePersonCore.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SessionCore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SessionCore.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Components/Element.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Components/Element.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +26,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SwipeDetectorService.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Components/Point.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Controlers/SwipeControler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Components/Element.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Components/Platform.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Controlers/CombinationsControler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Controlers/ConvertCombinationsToExpControler.cs" />
@@ -51,7 +46,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Components/Person/PersonLinearProp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Components/Person/IPerson.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Models/UserDataModel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Controlers/UserDataControler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Controlers/SessionScreensControler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Views/UserLevel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Services/SwipeDetectorService.cs" />
@@ -59,6 +53,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenuCore.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SessionCore.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ChosePersonCore.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controlers/UserDataControler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/Element.cs" />
       </list>
     </option>
   </component>
@@ -111,7 +107,8 @@
       <workItem from="1632051940973" duration="1293000" />
       <workItem from="1632228552457" duration="615000" />
       <workItem from="1632323865154" duration="9673000" />
-      <workItem from="1632571962952" duration="2465000" />
+      <workItem from="1632571962952" duration="5738000" />
+      <workItem from="1632740534812" duration="1230000" />
     </task>
     <servers />
   </component>
