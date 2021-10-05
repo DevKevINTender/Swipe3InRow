@@ -84,11 +84,38 @@
         
         public void ChangeCurrentRow(string side)
         {
-            const int step = 1; // шаг по строкам
-            if (_currentRow + step <= 4 && side == "up") _currentRow += step;
-            if (_currentRow - step >= 0 && side == "down") _currentRow -= step;
+            CalculateSteps(side);
             _currentEndicate.transform.localPosition = new Vector2(0, RowStart + _currentRow * 150);
             Debug.Log("Current row : " + _currentRow);
+        }
+
+        public void CalculateSteps(string side)
+        {
+            const int step = 1; // шаг по строкам
+            if (_currentRow + step > 4 && side == "up")
+            {
+                _currentRow -= 4 * step;
+                return;
+            }
+
+            if (_currentRow + step <= 4 && side == "up")
+            {
+                _currentRow += step;
+                return;
+            }    
+                
+            if (_currentRow - step < 0 && side == "down")
+            {
+                _currentRow += 4 * step;
+                return;
+            }
+
+            if (_currentRow - step >= 0 && side == "down")
+            {
+                _currentRow -= step;
+                return;
+            }
+
         }
 
         

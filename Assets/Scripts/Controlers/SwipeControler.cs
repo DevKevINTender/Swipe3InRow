@@ -10,20 +10,22 @@ namespace Controlers
         {
             this._platform = platform;
         }
-        public bool SwipeSolution(SwipeData swipeData, Element currentElement)
+        public bool SwipeSolution(SwipeDetector.SwipeData swipeData, Element currentElement)
         {
             switch (swipeData.Direction)
             {
-                case SwipeDirection.Up:
+                case SwipeDetector.SwipeDirection.Up:
+                    if(swipeData.Side == SwipeDetector.SwipeSide.RightSide) _platform.ChangeCurrentRow("up");
                     _platform.ChangeCurrentRow("up");
                     break;
-                case SwipeDirection.Down:
+                case SwipeDetector.SwipeDirection.Down:
+                    if(swipeData.Side == SwipeDetector.SwipeSide.RightSide) _platform.ChangeCurrentRow("down");
                     _platform.ChangeCurrentRow("down");   
                     break;
-                case  SwipeDirection.Left:
+                case  SwipeDetector.SwipeDirection.Left:
                     if (_platform.AddElementToPoint("left", currentElement)) return true;
                     break;
-                case  SwipeDirection.Right:
+                case  SwipeDetector.SwipeDirection.Right:
                     if (_platform.AddElementToPoint("right", currentElement)) return true;
                     break;
             } 

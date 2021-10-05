@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PersonObject: {fileID: 3428485776165874749, guid: c322bb92c39f56d4da43512b6f2dd3fd, type: 3}
   PersonType: {fileID: 811839598466641924, guid: 1ee360ac178547c4a9d36d762c06526a, type: 3}
+  PersonView: {fileID: 3784775752249808849, guid: c44cc5458e2e8d94384da8d6ffeafe30, type: 3}
   countBonus: 5
   requiredLevel: 5
   id: 2

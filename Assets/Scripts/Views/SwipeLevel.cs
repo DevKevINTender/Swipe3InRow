@@ -11,28 +11,23 @@ namespace Presenters
         private SwipeLevelsSO SwipeLevelSo;
         [SerializeField]
         private Image swipeLevelImage;
-        [SerializeField]
-        private Image swipeLevelBar;
-
+        [SerializeField] 
+        private Text swipeLevelText;
+        
         private int currentLevel;
+        [SerializeField]
         private int currentPoints;
         private float needPoints;
+        private float AllNeedPoints;
 
         private void Awake()
         {
-            SwipeDetectorService.OnSwipe += OnSwipe;
-            needPoints = SwipeLevelSo.swipeLevels[currentLevel].needPoints;
+            needPoints = SwipeLevelSo.swipeLevels[currentLevel];
+            AllNeedPoints = SwipeLevelSo.swipeLevels[SwipeLevelSo.swipeLevels.Count-1];
+            swipeLevelText.text = $"{currentLevel}";
         }
 
-        void OnSwipe(SwipeData swipeData)
-        {
-            if (swipeData.Direction == SwipeDirection.Left || swipeData.Direction == SwipeDirection.Right)
-            {
-                AddPointsToSwipeLevel();
-            }
-        }
-
-        void AddPointsToSwipeLevel()
+        public void AddPointsToSwipeLevel()
         {
             currentPoints++;
             if (currentPoints >= needPoints)
@@ -43,23 +38,30 @@ namespace Presenters
 
         void SwipeLevelUp()
         {
-            if (currentLevel < SwipeLevelSo.swipeLevels.Count)
+            if (currentLevel < SwipeLevelSo.swipeLevels.Count-1)
             {
                 currentLevel++;
-                swipeLevelImage.fillAmount = 0.2f * currentLevel;
-                currentPoints = 0;
+                needPoints = SwipeLevelSo.swipeLevels[currentLevel];
+                swipeLevelText.text = $"{currentLevel}";
             }
+        }
+
+        void SetCurrentSwipeLevelText()
+        {
             
         }
-
+        int SumPoints()
+        {
+            int NeedPoints = 0;
+            foreach (var Item in SwipeLevelSo.swipeLevels)
+            {
+                NeedPoints += Item;
+            }
+            return NeedPoints;
+        }
         private void Update()
         {
-            swipeLevelBar.fillAmount = currentPoints / needPoints;
-        }
-
-        private void OnDestroy()
-        {
-            SwipeDetectorService.OnSwipe -= OnSwipe;
+            swipeLevelImage.fillAmount = currentPoints / AllNeedPoints;
         }
     }
 }

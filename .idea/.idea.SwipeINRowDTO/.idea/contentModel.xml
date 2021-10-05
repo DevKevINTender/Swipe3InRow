@@ -17,7 +17,6 @@
         </e>
         <e p="ScriptableObjects" t="Include">
           <e p="SwipeLevel" t="Include">
-            <e p="SwipeLevelSO.cs" t="Include" />
             <e p="SwipeLevelsSO.cs" t="Include" />
           </e>
           <e p="UserLevel" t="Include">
@@ -53,7 +52,7 @@
             <e p="UserDataModel.cs" t="Include" />
           </e>
           <e p="Services" t="Include">
-            <e p="SwipeDetectorService.cs" t="Include" />
+            <e p="SwipeDetector.cs" t="Include" />
           </e>
           <e p="SessionCore.cs" t="Include" />
           <e p="Views" t="Include">

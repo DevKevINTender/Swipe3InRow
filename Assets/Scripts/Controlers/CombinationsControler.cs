@@ -122,7 +122,7 @@ namespace Controlers
             {
                 if (_platform._statusPoints[row, j] == 0)
                 {
-                    Debug.Log($"Пустое поле {row} : {j}");
+//                    Debug.Log($"Пустое поле {row} : {j}");
                     return fieldsWithElements;
                 }
                 else
@@ -133,12 +133,12 @@ namespace Controlers
                     }
                     else
                     {
-                        Debug.Log($"Не соответвие цвета {row} : {j}");
+  //                      Debug.Log($"Не соответвие цвета {row} : {j}");
                         return fieldsWithElements;
                     }
                 }
             }
-            Debug.Log("Нет доступных полей");
+    //        Debug.Log("Нет доступных полей");
             return fieldsWithElements;
         }
 

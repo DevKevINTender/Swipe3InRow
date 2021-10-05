@@ -7,6 +7,6 @@ namespace ScriptableObjects.SwipeLevel
     [CreateAssetMenu(fileName = "SwipeLevels", menuName = "ScriptableObjects/Create SwipeLevelsSO", order = 0)]
     public class SwipeLevelsSO : ScriptableObject
     {
-        public List<SwipeLevelSO> swipeLevels = new List<SwipeLevelSO>();
+        public List<int> swipeLevels = new List<int>();
     }
 }

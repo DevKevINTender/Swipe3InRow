@@ -27,9 +27,12 @@ public class SessionCore : MonoBehaviour
     public UserDataControler UserDataControler;
     
     public UserLevel UserLevel;
+    public SwipeLevel SwipeLevel;
     public GameObject Canvas;
     public Element currentElement;
     public Element elementPrefab;
+
+    public Transform currentPos;
     
     // Start is called before the first frame update
     private void Awake()
@@ -60,7 +63,7 @@ public class SessionCore : MonoBehaviour
     }
     void EventsSubscription()
     {
-        SwipeDetectorService.OnSwipe += OnSwipe;
+        SwipeDetector.OnSwipe += OnSwipe;
         UserLevel.UserDefeat += Defeat;
         UserLevel.UserNewLevel += NewLevel;
     }
@@ -82,7 +85,7 @@ public class SessionCore : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
-    void OnSwipe(SwipeData swipeData)
+    void OnSwipe(SwipeDetector.SwipeData swipeData)
     {
         if (SwipeControler.SwipeSolution(swipeData, currentElement))
         {
@@ -104,18 +107,18 @@ public class SessionCore : MonoBehaviour
     {
         List<Point> combinatedPoints = CombinationsControler.SearchCombinations();
         UserLevel.AddExpirence(ConvertToExpControler.Convert(combinatedPoints));
+        SwipeLevel.AddPointsToSwipeLevel();
         if(combinatedPoints.Count != 0) Platform.DeletePointsCombinations(combinatedPoints);
         CreateCurrentElement();
     }
     void CreateCurrentElement()
     {
-        currentElement = Instantiate(elementPrefab, Canvas.transform);
-        currentElement.transform.localPosition = new Vector3(0, 600, 0);
+        currentElement = Instantiate(elementPrefab, currentPos);
     }
 
     private void OnDestroy()
     {
-        SwipeDetectorService.OnSwipe -= OnSwipe;
+        SwipeDetector.OnSwipe -= OnSwipe;
         UserLevel.UserDefeat -= Defeat;
         UserLevel.UserNewLevel -= NewLevel;
         SaveUserData();

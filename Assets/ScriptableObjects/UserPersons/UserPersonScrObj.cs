@@ -7,6 +7,7 @@ namespace ScriptableObjects.UserPersons
     {
         public GameObject PersonObject;
         public GameObject PersonType;
+        public GameObject PersonView;
         public int countBonus;
         public int requiredLevel;
         public int id;

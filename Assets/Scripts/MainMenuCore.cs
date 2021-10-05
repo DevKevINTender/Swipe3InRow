@@ -23,9 +23,8 @@ public class MainMenuCore : MonoBehaviour
         UserDataControler = new UserDataControler();
         _userDataModel = UserDataControler.LoadData();
         currentPersonPb =
-            UserPersonsListScrObj.userLevels[_userDataModel.currentPerson].PersonObject;
+            UserPersonsListScrObj.userLevels[_userDataModel.currentPerson].PersonView;
         curerntPersonObj = Instantiate(currentPersonPb, currentPersonPos);
-        curerntPersonObj.transform.localScale = new Vector3(2,2,2);
     }
 
     // Update is called once per frame

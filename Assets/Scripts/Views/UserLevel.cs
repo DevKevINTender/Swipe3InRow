@@ -19,9 +19,7 @@ namespace Presenters
 
         private float acceleration;
         
-        [SerializeField] private Text levelText;
         [SerializeField] private Text levelScoreText;
-        [SerializeField] private Text levelPercentText;
 
         [SerializeField] private UserLevelsSO levelsSO;
         private UserDataModel UserData;
@@ -36,7 +34,6 @@ namespace Presenters
             currentLevel = userData.currentUserLevel;
             needExp = levelsSO.userLevels[currentLevel].needExp;
             acceleration = levelsSO.userLevels[currentLevel].acceleration;
-            levelText.text = $"{currentLevel}";
         }
         
         public void AddExpirence(float exp)
@@ -55,8 +52,6 @@ namespace Presenters
             {
                 UserData.currentUserLevel = currentLevel;
                 UserNewLevel?.Invoke();
-                //levelText.text = $"{currentLevel}";
-                //GetData();
             }
 
         }
@@ -71,7 +66,6 @@ namespace Presenters
             float persent = currentExp / needExp;
             levelScoreText.text = $"{Math.Round(currentExp,0)}/{needExp}";
             levelBar.fillAmount = persent;
-            levelPercentText.text = $"{Math.Round(persent * 100, 0)}%";
         }
 
         private void Update()
