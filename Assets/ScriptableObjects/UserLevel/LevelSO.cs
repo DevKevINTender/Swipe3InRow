@@ -8,5 +8,6 @@ namespace ScriptableObjects
         public int level;
         public float needExp;
         public float acceleration;
+        public int startPercent;
     }
 }

@@ -55,8 +55,9 @@
         {
             switch (side)
             {
+                
                 case "left":
-                    for (int i = 2; i <= 4; i++)
+                    for (int i = 0; i <= 4; i++)
                     {
                         if (_statusPoints[_currentRow, i] == 0)
                         {
@@ -67,18 +68,37 @@
                     }
                     break;
                 case "right":
-                    for (int i = 2; i >= 0; i--)
+                    if (CheckFreeRowPoint())
                     {
-                        if (_statusPoints[_currentRow, i] == 0)
-                        {
-                            _platformPoints[_currentRow,i].AddElement(newElement);
-                            _statusPoints[_currentRow, i] = 1;
-                            return true;
-                        }
-                    } 
+                        DisplacementElements();
+                        _platformPoints[_currentRow,0].AddElement(newElement);
+                        _statusPoints[_currentRow, 0] = 1;
+                        return true;
+                    }
                     break;
             }
             return false;
+        }
+
+        public void DisplacementElements()
+        {
+            for (int i = 4; i >= 1; i--)
+            {
+                if (_statusPoints[_currentRow, i-1] == 1)
+                {
+                    Debug.Log("tetst");
+                    _platformPoints[_currentRow,i].GetAnotherPoint(_platformPoints[_currentRow, i-1]);
+                    if (_statusPoints[_currentRow, i] == 0)
+                    {
+                        _statusPoints[_currentRow, i] = 1;
+                    }
+                    
+                }
+            }
+        }
+        public bool CheckFreeRowPoint()
+        {
+            return (_statusPoints[_currentRow, 4] == 1) ? false : true;
         }
 
         
@@ -115,11 +135,47 @@
                 _currentRow -= step;
                 return;
             }
-
         }
 
-        
-        
+        public void FillFreePoints()
+        {
+            for (int i = 0; i < _rowCount; i++)
+            {
+                for (int j = 0; j < _colCount; j++)
+                {
+                    if(_statusPoints[i, j] == 0) continue;
+                    
+                    int freej = -1;
+                    for (int k = j; k >= 0; k--)
+                    {
+                        if (_statusPoints[i, k] == 0)
+                        {
+                            freej = k;
+                        }
+                    }
+
+                    if (freej != -1)
+                    {
+                        _platformPoints[i,freej].GetAnotherPoint(_platformPoints[i, j]);
+                        _statusPoints[i, freej] = 1;
+                        _statusPoints[i, j] = 0;
+                    }
+                    
+                }
+            }
+        }
+
+        public void DestroyPanel()
+        {
+            for (int i = 0; i < _rowCount; i++)
+            {
+                for (int j = 0; j < _colCount; j++)
+                {
+                    Object.Destroy(_platformPoints[i,j]._pointObject);
+                }
+            }
+            Object.Destroy(_currentEndicate);
+        }
         
         public void DeletePointsCombinations(List<Point> elementsFields)
         {
@@ -129,7 +185,7 @@
                 int i = item.GetRow();
                 int j = item.GetCol();
                 _statusPoints[i, j] = 0;
-                item.Destroyelement();
+                item.DestroyElement();
             }
         }
     }

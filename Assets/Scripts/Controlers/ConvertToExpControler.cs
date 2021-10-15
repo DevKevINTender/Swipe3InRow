@@ -1,27 +1,24 @@
 ﻿using System.Collections.Generic;
+using Models;
+using Presenters;
+using ScriptableObjects.UserPersons;
 using SwipeToCompleteThreeInRow;
-using SwipeToCompleteThreeInRow.Person;
 using UnityEngine;
 
 namespace Controlers
 {
     public class ConvertToExpControler
     {
-        private float resultexpirence;
-        private ScriptableObject UserPersons;
-        private IPerson currentPerson;
-        public ConvertToExpControler(IPerson currentPerson)
+        private SwipeLevel SwipeLevel;
+        private UserPersonScrObj UserPerson;
+        public ConvertToExpControler(SwipeLevel swipeLevel, UserPersonScrObj userPerson)
         {
-            this.currentPerson = currentPerson;
+            this.UserPerson = userPerson;
+            this.SwipeLevel = swipeLevel;
         }
-
-
-
         public float Convert(List<Point> points)
         {
-            resultexpirence = currentPerson.CombinationsCalculateExpirence(points);
-            //resultexpirence = points.Count;
-            return resultexpirence;
+            return points.Count + points.Count * UserPerson.countBonus + points.Count * SwipeLevel.GetSwipeLevel();
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 namespace Controlers
 {
@@ -14,26 +15,24 @@ namespace Controlers
         public void ShowDefeatPanel()
         {
             HideAllPanels();
-            defeatPanel.SetActive(true);
+            defeatPanel.transform.localPosition = new Vector3(0,0,0);
         }
 
         public void ShowMenuPanel()
         {
-            HideAllPanels();
-            menuPanel.SetActive(true);
+            menuPanel.transform.localPosition = new Vector3(0,0,0);
         }
 
         public void ShowNewLevelPanel()
         {
             HideAllPanels();
-            newLevelPanel.SetActive(true);
+            newLevelPanel.GetComponent<Animation>().Play("NewLevelAnim");
         }
         
         public void HideAllPanels()
         {
-            defeatPanel.SetActive(false);
-            newLevelPanel.SetActive(false);
-            menuPanel.SetActive(false);
+            menuPanel.transform.localPosition = new Vector3(-1200,0,0);
+            defeatPanel.transform.localPosition = new Vector3(-2400,0,0);
         }
     }
 }

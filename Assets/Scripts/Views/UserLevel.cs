@@ -33,6 +33,7 @@ namespace Presenters
             this.UserData = userData;
             currentLevel = userData.currentUserLevel;
             needExp = levelsSO.userLevels[currentLevel].needExp;
+            currentExp = needExp / 100 * levelsSO.userLevels[currentLevel].startPercent;
             acceleration = levelsSO.userLevels[currentLevel].acceleration;
         }
         

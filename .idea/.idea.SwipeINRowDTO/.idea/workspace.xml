@@ -20,120 +20,162 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07432623-0c68-438a-ab94-870e1705dd2e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/ColorScheme.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/ColorScheme/ColorSchemeScrObj.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/ColorScheme/ColorSchemeScrObj.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/GameTier.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/GameTier/GameTierListScrObj.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/GameTier/GameTierListScrObj.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/GameTier/GameTierScrObj.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/GameTier/GameTierScrObj.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Components/ColorScheme.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Components/ColorScheme/SetItemColor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Components/ColorScheme/SetItemColor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Controlers/ColorSchemeControler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Controlers/ColorSchemeControler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Controlers/GameTierControler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Controlers/GameTierControler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Controlers/SessionInitializationControler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Controlers/SessionInitializationControler.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SwipeINRowDTO/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SwipeINRowDTO/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SwipeINRowDTO/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SwipeINRowDTO/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SwipeINRowDTO/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SwipeINRowDTO/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/ElementPrefab.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/ElementPrefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/CurrentIndicate.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/CurrentIndicate.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/PersonPanel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/PersonPanel.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/PointPrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/PointPrefab.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/Ресурс 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/Ресурс 1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/Ресурс 10.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/Ресурс 10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/Ресурс 17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/Ресурс 17.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/Ресурс 18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/Ресурс 18.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/Ресурс 2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/Ресурс 2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/Ресурс 3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/Ресурс 3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/Ресурс 5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/Ресурс 5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/Ресурс 6.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/Ресурс 6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/Ресурс 7.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/Ресурс 7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/полоски (2).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/полоски (2).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 10.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 11.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 12.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 12.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 12.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 12.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 13.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 13.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 13.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 13.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 14.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 15.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 16.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 17.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 18.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 19.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 20.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 21.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 22.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 22.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 23.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 23.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 24.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 25.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 26.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 26.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 27.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 27.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 28.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 28.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 29.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 29.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/Ресурс 9.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Persons/Back.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Persons/Back.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Persons/Ресурс 26.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Persons/Ресурс 26.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Persons/Ресурс 31.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Persons/Ресурс 31.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/SwipeLevel.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/SwipeLevel/Ресурс 18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/SwipeLevel/Ресурс 18.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/UserLevel.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/UserLevel/Ресурс 13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/UserLevel/Ресурс 13.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/UserLevel/Ресурс 14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/UserLevel/Ресурс 14.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/UserLevel/Ресурс 16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/UserLevel/Ресурс 16.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/UserLevel/Ресурс 17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/UserLevel/Ресурс 17.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Basic/backTile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Basic/backTile.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/PersonPanel/New.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/PersonPanel/New/Ресурс 11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/PersonPanel/New/Ресурс 11.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/PersonPanel/New/Ресурс 13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/PersonPanel/New/Ресурс 13.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/PersonPanel/New/Ресурс 14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/PersonPanel/New/Ресурс 14.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/PersonPanel/New/Ресурс 15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/PersonPanel/New/Ресурс 15.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/PersonPanel/New/Ресурс 16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/PersonPanel/New/Ресурс 16.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/PersonPanel/New/полоски.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/PersonPanel/New/полоски.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/PersonPanel/Ресурс 10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/PersonPanel/Ресурс 10.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/PersonPanel/Ресурс 11.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/PersonPanel/Ресурс 11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/PersonPanel/Ресурс 11.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/PersonPanel/Ресурс 11.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/PersonPanel/Ресурс 12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/PersonPanel/Ресурс 12.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/PersonPanel/Ресурс 13.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/PersonPanel/Ресурс 13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/PersonPanel/Ресурс 13.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/PersonPanel/Ресурс 13.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/PersonPanel/Ресурс 14.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/PersonPanel/Ресурс 14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/PersonPanel/Ресурс 14.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/PersonPanel/Ресурс 14.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/PersonPanel/Ресурс 15.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/PersonPanel/Ресурс 15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/PersonPanel/Ресурс 15.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/PersonPanel/Ресурс 15.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/PersonPanel/Ресурс 8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/ChangePerons/PersonPanel/Ресурс 8.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/GameTier.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/GameTier/Ресурс 27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/GameTier/Ресурс 27.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/GameTier/Ресурс 28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/MainMenu/GameTier/Ресурс 28.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Persons/Object.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Persons/Object/Back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Persons/Object/Back.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Persons/Object/Ресурс 26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Persons/Object/Ресурс 26.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Persons/Object/Ресурс 31.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Persons/Object/Ресурс 31.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Persons/View.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Persons/View/Ресурс 11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Persons/View/Ресурс 11.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Persons/View/Ресурс 14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Persons/View/Ресурс 14.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Session/Level.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Session/Level/Ресурс 33.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Session/Level/Ресурс 33.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Session/Level/Ресурс 34.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Session/Level/Ресурс 34.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Session/Level/Ресурс 35.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Session/Level/Ресурс 35.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Session/Level/Ресурс 36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Session/Level/Ресурс 36.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Session/Level/Ресурс 37.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Session/Level/Ресурс 37.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Ресурс 19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Ресурс 19.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Ресурс 20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Ресурс 20.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Ресурс 21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Ресурс 21.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Ресурс 22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Ресурс 22.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Ресурс 23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Ресурс 23.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Ресурс 29.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Ресурс 29.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Ресурс 30.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Ресурс 30.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Ресурс 7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Ресурс 7.png.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/ChangePerson.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ChangePerson.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SessionScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SessionScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/SwipeLevel/Levels.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/SwipeLevel/Levels/1.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/SwipeLevel/Levels/1.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/SwipeLevel/Levels/2.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/SwipeLevel/Levels/2.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/SwipeLevel/Levels/3.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/SwipeLevel/Levels/3.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/SwipeLevel/Levels/4.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/SwipeLevel/Levels/4.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/SwipeLevel/Levels/5.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/SwipeLevel/Levels/5.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/SwipeLevel/SwipeLevelSO.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/SwipeLevel/SwipeLevelSO.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/SwipeLevel/SwipeLevels.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/SwipeLevel/SwipeLevels.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/SwipeLevel/SwipeLevelsSO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/SwipeLevel/SwipeLevelsSO.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/UserLevel/Levels/LevelSO2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/UserLevel/Levels/LevelSO2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/UserPersons/PersonsPrefabs/1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/UserPersons/PersonsPrefabs/1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/UserPersons/PersonsPrefabs/2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/UserPersons/PersonsPrefabs/2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/UserPersons/PersonsPrefabs/3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/UserPersons/PersonsPrefabs/3.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/UserPersons/PersonsPrefabs/PersonObjects/PersonTest.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/UserPersons/PersonsPrefabs/PersonObjects/PersonTest.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/UserPersons/UserPersonScrObj.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/UserPersons/UserPersonScrObj.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/UserLevel/LevelSO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/UserLevel/LevelSO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/UserLevel/Levels.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/UserLevel/Levels/LevelSO1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/UserLevel/Levels/LevelSO1.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/UserLevel/Levels/LevelSO2.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/UserLevel/Levels/LevelSO2.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/UserLevel/UserLevelsSO.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/UserLevel/UserLevelsSO.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/UserPersons.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/UserPerson.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/UserPersons/PersonsPrefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/UserPersons/PersonsPrefabs/1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/UserPersons/PersonsPrefabs/1.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/UserPersons/PersonsPrefabs/2.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/UserPersons/PersonsPrefabs/2.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/UserPersons/PersonsPrefabs/3.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/UserPersons/PersonsPrefabs/3.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/UserPersons/PersonsPrefabs/PersonObjects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/UserPersons/PersonsPrefabs/PersonObjects/PersonLinear.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/UserPersons/PersonsPrefabs/PersonObjects/PersonLinear.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/UserPersons/PersonsPrefabs/PersonObjects/PersonTest.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/UserPersons/PersonsPrefabs/PersonObjects/PersonTest.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/UserPersons/PersonsPrefabs/PersonTypes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/UserPersons/PersonsPrefabs/PersonTypes/PersonLinear.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/UserPersons/PersonsPrefabs/PersonTypes/PersonLinear.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/UserPersons/PersonsPrefabs/PersonTypes/PersonNormal.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/UserPersons/PersonsPrefabs/PersonTypes/PersonNormal.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/UserPersons/PersonsPrefabs/PersonView.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/UserPersons/PersonsPrefabs/PersonView/PersonViewTest.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/UserPersons/PersonsPrefabs/PersonView/PersonViewTest.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/UserPersons/UserPersonScrObj.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/UserPerson/UserPersonScrObj.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/UserPersons/UserPersonScrObj.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/UserPerson/UserPersonScrObj.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/UserPersons/UserPersonsListScr.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/UserPerson/UserPersonsListScr.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/UserPersons/UserPersonsListScr.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/UserPerson/UserPersonsListScr.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/UserPersons/UserPersonsListScrObj.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/UserPerson/UserPersonsListScrObj.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/UserPersons/UserPersonsListScrObj.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/UserPerson/UserPersonsListScrObj.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ChosePersonCore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ChosePersonCore.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Components/Element.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Components/Element.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Components/Person.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Components/Person/IPerson.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Components/Person/IPerson.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Components/Person/PersonLinear.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Components/Person/PersonLinear.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Components/Person/PersonNormal.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Components/Person/PersonNormal.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Components/Platform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Components/Platform.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controlers/CombinationsControler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controlers/CombinationsControler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controlers/SwipeControler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controlers/SwipeControler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Components/Point.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Components/Point.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controlers/ConvertToExpControler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controlers/ConvertToExpControler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controlers/SessionScreensControler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controlers/SessionScreensControler.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MainMenuCore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MainMenuCore.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/SwipeDetectorService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/SwipeDetectorService.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/SessionCore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SessionCore.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Views/PersonPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Views/PersonPanel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Views/SwipeLevel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Views/SwipeLevel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Views/UserLevel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Views/UserLevel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/persons.xml" beforeDir="false" afterPath="$PROJECT_DIR$/persons.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -154,7 +196,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/DOT/FloatNumberDTO.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Presenters/TextPresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SwipeDetectorService.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Components/Point.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Controlers/ConvertCombinationsToExpControler.cs" />
         <option value="$PROJECT_DIR$/Assets/ScriptableObjects/UserLevelSO.cs" />
         <option value="$PROJECT_DIR$/Assets/ScriptableObjects/UserLevelsSO.cs" />
@@ -162,39 +203,52 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Presenters/UserLevel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Controlers/PanelEventsControler.cs" />
         <option value="$PROJECT_DIR$/Assets/ScriptableObjects/SwipeLevel/SwipeLevelSO.cs" />
-        <option value="$PROJECT_DIR$/Assets/ScriptableObjects/UserLevel/LevelSO.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Controlers/ScreensControler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Components/Person/PersonNormal.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Controlers/ConvertToExpControler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Components/Person/PersonLinear.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Components/Person/IPersonProperties.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Components/Person/PersonLinearProp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Components/Person/IPerson.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Controlers/SessionScreensControler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Components/Element.cs" />
-        <option value="$PROJECT_DIR$/Assets/ScriptableObjects/UserPersons/UserPersonsListScrObj.cs" />
         <option value="$PROJECT_DIR$/persons.xml" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Models/UserDataModel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Views/PersonPanel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ChosePersonCore.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Controlers/UserDataControler.cs" />
-        <option value="$PROJECT_DIR$/Assets/ScriptableObjects/UserPersons/UserPersonScrObj.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenuCore.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Views/UserLevel.cs" />
         <option value="$PROJECT_DIR$/Assets/ScriptableObjects/SwipeLevel/SwipeLevelsSO.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Views/SwipeLevel.cs" />
         <option value="$PROJECT_DIR$/Assets/SwipeDetector.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Services/SwipeDetectorSer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Services/SwipeDetectorService.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SessionCore.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Controlers/CombinationsControler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Services/SwipeDetector.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Controlers/SwipeControler.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScriptableObjects/UserPersons/UserPersonsListScrObj.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScriptableObjects/UserPersons/UserPersonScrObj.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScriptableObjects/GameTier/GameTierScrObj.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScriptableObjects/GameTier/GameTierListScrObj.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/ColorScheme/SetColorItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScriptableObjects/ColorScheme/ColorSchemeScrObj.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controlers/SessionInitializationControler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/Point.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Components/Platform.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScriptableObjects/UserLevel/LevelSO.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Views/UserLevel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/ColorScheme/SetItemColor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controlers/GameTierControler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/Element.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScriptableObjects/UserPerson/UserPersonScrObj.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Views/PersonPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controlers/ColorSchemeControler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controlers/SessionScreensControler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenuCore.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ChosePersonCore.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Views/SwipeLevel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controlers/ConvertToExpControler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SessionCore.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Controlers/UserDataControler.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1xzCToRirVFY7C2IfZ1ct6r3Xd5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -205,6 +259,7 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -248,6 +303,11 @@
       <workItem from="1633080893228" duration="2869000" />
       <workItem from="1633270145323" duration="1521000" />
       <workItem from="1633359576723" duration="12025000" />
+      <workItem from="1633417593402" duration="17624000" />
+      <workItem from="1633502551233" duration="862000" />
+      <workItem from="1633504659757" duration="16899000" />
+      <workItem from="1633592997256" duration="7052000" />
+      <workItem from="1634112213936" duration="1147000" />
     </task>
     <servers />
   </component>
@@ -336,6 +396,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="375" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1632333606307" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1633502572837">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1633502572837" />
     <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1633362298838">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using ScriptableObjects.SwipeLevel;
 using UnityEngine;
 using UnityEngine.UI;
@@ -18,12 +19,11 @@ namespace Presenters
         [SerializeField]
         private int currentPoints;
         private float needPoints;
-        private float AllNeedPoints;
-
+        [SerializeField]
+        private List<Color> listColor = new List<Color>();
         private void Awake()
         {
             needPoints = SwipeLevelSo.swipeLevels[currentLevel];
-            AllNeedPoints = SwipeLevelSo.swipeLevels[SwipeLevelSo.swipeLevels.Count-1];
             swipeLevelText.text = $"{currentLevel}";
         }
 
@@ -36,32 +36,20 @@ namespace Presenters
             }
         }
 
+        public int GetSwipeLevel()
+        {
+            return currentLevel;
+        }
         void SwipeLevelUp()
         {
             if (currentLevel < SwipeLevelSo.swipeLevels.Count-1)
             {
+                swipeLevelImage.color = listColor[currentLevel];
                 currentLevel++;
                 needPoints = SwipeLevelSo.swipeLevels[currentLevel];
                 swipeLevelText.text = $"{currentLevel}";
+                currentPoints = 0;
             }
-        }
-
-        void SetCurrentSwipeLevelText()
-        {
-            
-        }
-        int SumPoints()
-        {
-            int NeedPoints = 0;
-            foreach (var Item in SwipeLevelSo.swipeLevels)
-            {
-                NeedPoints += Item;
-            }
-            return NeedPoints;
-        }
-        private void Update()
-        {
-            swipeLevelImage.fillAmount = currentPoints / AllNeedPoints;
         }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using Models;
 using ScriptableObjects.UserPersons;
+using SwipeToCompleteThreeInRow;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -28,6 +29,11 @@ namespace Presenters
         private UserPersonScrObj UserPersonScrObj;
         private int PanelStatus; // 0 - not availabale 1 - availabe 2 - active
 
+        [SerializeField]
+        private Element personPb;
+
+        private Element personObj;
+
         public void CreatePersonPanel(UserPersonScrObj userPersonScrObj, UserDataModel userDataModel,ChosePersonCore chosePersonCore )
         {
             this.UserPersonScrObj = userPersonScrObj;
@@ -37,7 +43,8 @@ namespace Presenters
             bonus.text = $"+{UserPersonScrObj.countBonus}%";
             this.UserDataModel = userDataModel;
 
-            Instantiate(userPersonScrObj.PersonObject, personPos);
+            personObj = Instantiate(personPb, personPos);
+            personObj.CreateElement(userPersonScrObj.PersonSprite);
             
             DefineStatus();
         }

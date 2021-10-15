@@ -3,8 +3,10 @@
     using  UnityEngine;
     public class Point
     {
-        private GameObject _pointObject;
-        private Element _element;
+        [SerializeField]
+        public GameObject _pointObject;
+        [SerializeField]
+        public Element _element;
         private Transform _parent;
         private int _row;
         private int _col;
@@ -46,10 +48,16 @@
             _element.SetToFieldPosition(_pointObject.transform);
         }
 
-        public void Destroyelement()
+        public void DestroyElement()
         {
-            GameObject.Destroy(_element.gameObject);
+            _element.DestroyElement();
             _element = null;
+        }
+
+        public void GetAnotherPoint(Point anotherPoint)
+        {
+            _element = anotherPoint._element;
+            _element.SetToFieldPosition(_pointObject.transform);
         }
 
     }

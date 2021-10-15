@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using Controlers;
 using Models;
 using Presenters;
+using ScriptableObjects.GameTier;
 using ScriptableObjects.UserPersons;
 using SwipeToCompleteThreeInRow;
-using SwipeToCompleteThreeInRow.Person;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
@@ -15,65 +15,67 @@ public class SessionCore : MonoBehaviour
 {
     [SerializeField] 
     public UserPersonsListScrObj UserPersonsListScrObj;
-
-    public IPerson CurrentPersonType;
-    public UserDataModel userData;
-    public Platform Platform;
     
+    public UserDataModel userData;
+
     public SwipeControler SwipeControler;
     public CombinationsControler CombinationsControler;
     public ConvertToExpControler ConvertToExpControler;
     public SessionScreensControler ScreensControler;
     public UserDataControler UserDataControler;
-    
+    public GameTierControler GameTierControler;
+    public ColorSchemeControler ColorSchemeControler;
+    public SessionInitializationControler SessionInitControler;
+    // views
     public UserLevel UserLevel;
     public SwipeLevel SwipeLevel;
-    public GameObject Canvas;
-    public Element currentElement;
-    public Element elementPrefab;
-
+    // geted iten
+    public GameTierScrObj GameTier;
     public Transform currentPos;
-    
+    private Platform Platform;
+    // element
+    private Element currentElement;
+    [SerializeField]
+    private Element elementPrefab;
+
     // Start is called before the first frame update
     private void Awake()
     {
         CreateMainControlers();
-        LoadUserData();
+        GetUserData();
         EventsSubscription();
-        CreateOverControlers();
+        SessionInitialization();
         
-        CreateCurrentElement();
+        CreateOverControlers();
     }
 
     void CreateMainControlers()
     {
         UserDataControler = new UserDataControler();
     }
-    void LoadUserData()
+    void GetUserData()
     {
         userData = UserDataControler.LoadData();
         UserLevel.SetData(userData);
-        CurrentPersonType = UserPersonsListScrObj.userLevels[userData.currentPerson].PersonType.GetComponent<IPerson>();
-        elementPrefab = UserPersonsListScrObj.userLevels[userData.currentPerson].PersonObject.GetComponent<Element>();
     }
 
     void SaveUserData()
     {
         UserDataControler.SaveData(userData);
     }
+   
+    void CreateOverControlers()
+    {
+        SwipeControler = new SwipeControler(Platform);
+        CombinationsControler = new CombinationsControler(Platform);
+        ConvertToExpControler = new ConvertToExpControler(SwipeLevel,UserPersonsListScrObj.userLevels[userData.currentPerson]);
+    }
+    
     void EventsSubscription()
     {
         SwipeDetector.OnSwipe += OnSwipe;
         UserLevel.UserDefeat += Defeat;
         UserLevel.UserNewLevel += NewLevel;
-    }
-    
-    void CreateOverControlers()
-    {
-        Platform = new Platform(5,5, Canvas.transform);
-        SwipeControler = new SwipeControler(Platform);
-        CombinationsControler = new CombinationsControler(Platform);
-        ConvertToExpControler = new ConvertToExpControler(CurrentPersonType);
     }
 
     public void RestartSession()
@@ -81,10 +83,21 @@ public class SessionCore : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
+    public void SessionInitialization()
+    {
+        GameTier = GameTierControler.GetCurrentGameTier(userData);
+        SessionInitControler.SessionInitialization(GameTier);
+        Platform = SessionInitControler.GetPlatform();
+        ColorSchemeControler.SetColors(GameTier.colorCheme);
+        
+        CreateCurrentElement();
+    }
+
     public void LoadMainMenu()
     {
         SceneManager.LoadScene(0);
     }
+    
     void OnSwipe(SwipeDetector.SwipeData swipeData)
     {
         if (SwipeControler.SwipeSolution(swipeData, currentElement))
@@ -93,29 +106,55 @@ public class SessionCore : MonoBehaviour
         }
     }
 
+    public void SessionDeinitialization()
+    {
+        Platform.DestroyPanel();
+    }
     void Defeat()
     {
         ScreensControler.ShowDefeatPanel();
     }
 
+    // запуск задачи для перехода на следующий уровень. Если задача решена - переход на уровень.
+    // сообщение меняется с "collect point на Complete Pazl" плашка с коллект поинт уезжает и приезжает  лпашка с собрать пазл , после этого активируется таймер и пользователь за отведенное время должен собраь пазл
     void NewLevel()
     {
         UserDataControler.SaveData(userData);
         ScreensControler.ShowNewLevelPanel();
+        
+        SessionDeinitialization();
+        GetUserData();
+        SessionInitialization();
+        CreateOverControlers();
     }
+    
     void Step()
     {
-        List<Point> combinatedPoints = CombinationsControler.SearchCombinations();
-        UserLevel.AddExpirence(ConvertToExpControler.Convert(combinatedPoints));
+        CheckCombinations();
         SwipeLevel.AddPointsToSwipeLevel();
-        if(combinatedPoints.Count != 0) Platform.DeletePointsCombinations(combinatedPoints);
         CreateCurrentElement();
     }
+
+    void FillFreeCicle()
+    {
+        Platform.FillFreePoints();  
+        CheckCombinations();
+    }
+    
+    void CheckCombinations()
+    {
+        List<Point> combinatedPoints = CombinationsControler.SearchCombinations();
+        if(combinatedPoints.Count != 0) UserLevel.AddExpirence(ConvertToExpControler.Convert(combinatedPoints));
+        if(combinatedPoints.Count != 0) Platform.DeletePointsCombinations(combinatedPoints);
+        if(combinatedPoints.Count != 0) FillFreeCicle(); 
+    }
+    
     void CreateCurrentElement()
     {
         currentElement = Instantiate(elementPrefab, currentPos);
+        currentElement.CreateElement(UserPersonsListScrObj.userLevels[userData.currentPerson].PersonSprite);
     }
-
+    
     private void OnDestroy()
     {
         SwipeDetector.OnSwipe -= OnSwipe;

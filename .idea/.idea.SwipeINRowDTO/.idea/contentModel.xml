@@ -16,6 +16,13 @@
           </e>
         </e>
         <e p="ScriptableObjects" t="Include">
+          <e p="ColorScheme" t="Include">
+            <e p="ColorSchemeScrObj.cs" t="Include" />
+          </e>
+          <e p="GameTier" t="Include">
+            <e p="GameTierListScrObj.cs" t="Include" />
+            <e p="GameTierScrObj.cs" t="Include" />
+          </e>
           <e p="SwipeLevel" t="Include">
             <e p="SwipeLevelsSO.cs" t="Include" />
           </e>
@@ -23,7 +30,7 @@
             <e p="LevelSO.cs" t="Include" />
             <e p="UserLevelsSO.cs" t="Include" />
           </e>
-          <e p="UserPersons" t="Include">
+          <e p="UserPerson" t="Include">
             <e p="UserPersonScrObj.cs" t="Include" />
             <e p="UserPersonsListScrObj.cs" t="Include" />
           </e>
@@ -31,18 +38,19 @@
         <e p="Scripts" t="Include">
           <e p="ChosePersonCore.cs" t="Include" />
           <e p="Components" t="Include">
-            <e p="Element.cs" t="Include" />
-            <e p="Person" t="Include">
-              <e p="IPerson.cs" t="Include" />
-              <e p="PersonLinear.cs" t="Include" />
-              <e p="PersonNormal.cs" t="Include" />
+            <e p="ColorScheme" t="Include">
+              <e p="SetItemColor.cs" t="Include" />
             </e>
+            <e p="Element.cs" t="Include" />
             <e p="Platform.cs" t="Include" />
             <e p="Point.cs" t="Include" />
           </e>
           <e p="Controlers" t="Include">
+            <e p="ColorSchemeControler.cs" t="Include" />
             <e p="CombinationsControler.cs" t="Include" />
             <e p="ConvertToExpControler.cs" t="Include" />
+            <e p="GameTierControler.cs" t="Include" />
+            <e p="SessionInitializationControler.cs" t="Include" />
             <e p="SessionScreensControler.cs" t="Include" />
             <e p="SwipeControler.cs" t="Include" />
             <e p="UserDataControler.cs" t="Include" />

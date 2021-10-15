@@ -3,26 +3,38 @@ using System.Collections.Generic;
 using Controlers;
 using Models;
 using Presenters;
+using ScriptableObjects.GameTier;
 using ScriptableObjects.UserPersons;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class ChosePersonCore : MonoBehaviour
 {
+    [SerializeField]
+    private GameTierControler GameTierControler;
+    [SerializeField]
+    private ColorSchemeControler ColorSchemeControler;
     [SerializeField]
     private UserDataControler UserDataControler;
     [SerializeField]
     private UserPersonsListScrObj UserPersonsListScrObj;
 
-    private UserDataModel UserDataModel;
+    [SerializeField] 
+    private Text userLevelText;
+    private UserDataModel UserData;
     public GameObject PersonPanelPb;
     public Transform personPanelPos;
+    private GameTierScrObj GameTier;
 
     public PersonPanel currentPersonPanel;
     void Start()
     {
         UserDataControler = new UserDataControler();
-        UserDataModel = UserDataControler.LoadData();
+        UserData = UserDataControler.LoadData();
+        GameTier = GameTierControler.GetCurrentGameTier(UserData);
+        ColorSchemeControler.SetColors(GameTier.colorCheme);
+        SetUserLevel();
         GeneratePersonPanels();
     }
 
@@ -31,9 +43,9 @@ public class ChosePersonCore : MonoBehaviour
         foreach (UserPersonScrObj item in UserPersonsListScrObj.userLevels)
         {
            PersonPanel personPanel = Instantiate(PersonPanelPb, personPanelPos).GetComponent<PersonPanel>();
-           personPanel.CreatePersonPanel(item, UserDataModel, this);
+           personPanel.CreatePersonPanel(item, UserData, this);
 
-           if (UserDataModel.currentPerson == item.id)
+           if (UserData.currentPerson == item.id)
            {
                currentPersonPanel = personPanel;
            }
@@ -42,14 +54,18 @@ public class ChosePersonCore : MonoBehaviour
         
     }
 
+    public void SetUserLevel()
+    {
+        userLevelText.text = $"{UserData.currentUserLevel}";
+    }
     public void ActivateNewPersonaPanel(PersonPanel newPersonPanel)
     {
         currentPersonPanel.Diactivate();
         currentPersonPanel = newPersonPanel;
-        UserDataModel.currentPerson = currentPersonPanel.id;
+        UserData.currentPerson = currentPersonPanel.id;
         Debug.Log(currentPersonPanel.id);
         currentPersonPanel.Activate();
-        UserDataControler.SaveData(UserDataModel);
+        UserDataControler.SaveData(UserData);
     }
     // Update is called once per frame
     void Update()
